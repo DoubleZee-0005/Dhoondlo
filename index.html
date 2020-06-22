@@ -3,12 +3,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhoondlo | Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Dhoondlo 1.0</h1>
+<header>
 
+<nav>
+  <div class="menubar logo">
+   <a href="index.html">
+       <img src="images/logo.PNG" alt="">
+   </a>
+    <div class="icons">
+      <i class="icon-menu"><span></span></i>
+    </div>
+  </div>
+  <ul class="menu">     
+    <li class="menu-link sub">
+      <a href="#0" class="text-item">Sign Up<span class="icon"></span></a>
+      <ul class="submenu">
+        <li class="sub-item"><a href="#0">Become a Seller</a></li>
+        <li class="sub-item"><a href="#0">Become a Premium user</a></li>      
+      </ul>
+    </li>
+    <li class="menu-link"><a href="#0" class="text-item">Discounts</a></li>    
+    <li class="menu-link sub">
+      <a href="#0" class="text-item">Services<span class="icon"></span></a>
+      <ul class="submenu">
+        <li class="sub-item"><a href="#0">Print Design</a></li>
+        <li class="sub-item"><a href="#0">Web Design</a></li>
+        <li class="sub-item"><a href="#0">Mobile App Development</a></li>
+      </ul>
+    </li>
+    <li class="menu-link"><a href="#0" class="text-item">Contact Us</a></li>
+  </ul>
+</nav>
+</header>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">  
+    <div class="carousel-inner">
+      <div class="carousel-item active">        
+        <div class="carousel-caption d-none d-md-block">            
+          <button href="#" class="exclusive-btn">Visit</button>
+        </div>
+        <img class="d-block w-100" src="images/summer_gala_sale.gif" alt="Second slide">
+        <div class="overlay"></div>        
+      </div>      
+      <div class="carousel-item"> 
+        <div class="carousel-caption d-none d-md-block">          
+          <button href="#" class="exclusive-btn">Visit</button>
+        </div>        
+        <img class="d-block w-100" src="images/fnc_banner_16.jpg" alt="Third slide">
+        <div class="overlay"></div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container mt-5 text-center">
+    <h2 class="main-heading">Get <span class="type"></span></h2>
     
-    <script src="js/main.js"></script>
+  </div>
+
+
+
+<script src="https://kit.fontawesome.com/325897fa15.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/typed.js"></script>
+
+<script>
+  var typed = new Typed('.type', {
+      strings: [' Exclusive Discounts', ' Best Deals'],
+      smartBackspace: true,
+      typeSpeed: 40,
+      backSpeed: 40,
+      loop: 40,
+  });
+</script>
+
 </body>
 </html>
