@@ -7,7 +7,11 @@
   --main-white: #f7f9fb; 
   }
   @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900");
-
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     margin: 0;
     font-family: "Barlow", sans-serif;
@@ -550,7 +554,7 @@
 {
   text-transform: uppercase;
   color: var(--main-blue) !important;
-  font-size: 40px !important;
+  font-size: 45px !important;
 }
 
 .overlay h2 span
@@ -563,7 +567,7 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 1px 4px 17px 7px rgba(0, 0, 0, 0.054);
-  margin-bottom: 50px;
+  
 }
 .card
 {
@@ -593,6 +597,10 @@
   {
     font-size: 24px !important;
   }
+  .main-heading
+{
+  font-size: 30px !important;
+}
 }
 
 
@@ -695,3 +703,79 @@ figure.snip1206.hover figcaption p {
 }
 
 
+.vertical-card-body h3
+{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.vertical-card-body p
+{
+  text-align: justify;
+}
+
+.getregister-banner
+{
+  height: 350px;
+  width: 100%;
+  background: linear-gradient(to right,#687864e1,#31718eb9),url('../images/back1122.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner-content
+{
+  position: relative;
+  top: 120px;
+}
+
+.btn-outline-white
+{
+  border: 2px solid white !important;
+  color: white !important;
+}
+
+.btn-outline-white:hover
+{
+  background-color: rgba(255, 255, 255, 0.74);
+  color: var(--main-slate) !important;
+  font-weight: 500;
+}
+
+.text-contact i
+{
+  font-size: 25px;
+  color: var(--main-blue);
+}
+
+form label
+{
+  color: var(--main-blue);
+  font-weight: 500;
+}
+
+
+.card-overlay
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right ,#687864d0,#31718ec9);
+}
+
+footer {
+  position: block;
+  padding:10px 10px 20px 10px;
+ left: 0;
+ bottom:-10px;
+ width: 100%;
+ background-color: var(--main-slate);
+ color: white;
+ text-align: center;
+ font-size: 12px;
+ height: 50px;
+}
