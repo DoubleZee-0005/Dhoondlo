@@ -6,7 +6,6 @@
   --sub-blue2:#8fc1e3;
   --main-white: #f7f9fb; 
   }
-  @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900");
   
   html {
     scroll-behavior: smooth;
@@ -14,7 +13,7 @@
   
   body {
     margin: 0;
-    font-family: "Barlow", sans-serif;
+    
     background-color: #f1f3f7;
     -webkit-tap-highlight-color: transparent;
   }
