@@ -9,9 +9,11 @@
     body,
     html {
         margin: 0;
-        padding: 0;
-        height: 120vh;
-        background:linear-gradient(#687864d5,#31808ed7);
+        padding: 0;        
+    }
+    .main-div
+    {
+        background:linear-gradient(#687864d5,#31808ed7) !important;
         background-size: cover;
         background-position: center;
     }
@@ -22,7 +24,7 @@
         top: 100px;
         border-radius: 50%;
         background: var(--main-white);
-        padding: 10px;
+        
         text-align: center;
     }
     .brand_logo {
@@ -128,5 +130,9 @@
         }
         .social-icons ul li{           
             margin-right: -10px;
+        }
+        #seller-icon
+        {
+            margin-top: 60px;
         }
     }
